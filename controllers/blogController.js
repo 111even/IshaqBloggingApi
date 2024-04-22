@@ -13,7 +13,7 @@ async function getAllBlogs(req, res) {
     }
 }
 
-// Controller function to create a blog
+// Controller function to create a blog 
 async function createBlog(req, res) {
     try {
         const { title, content } = req.body;
