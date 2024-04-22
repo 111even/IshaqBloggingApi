@@ -1,0 +1,33 @@
+{
+  "name": "ishaqblogapi",
+  "version": "1.0.0",
+  "description": "BloggingApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IshaqAbdulrazzaq",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/111even/IshaqBloggingApi.git"
+  },
+  "keywords": [
+    "Blog"
+  ],
+  "bugs": {
+    "url": "https://github.com/111even/IshaqBloggingApi/issues"
+  },
+  "homepage": "https://github.com/111even/IshaqBloggingApi#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.2",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.4.0"
+  }
+}
